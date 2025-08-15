@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /user
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/user_management"
+    username: root
+    password: nam01665478954
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  signerKey: "7cI3FQ89tkmzsNCv2bNZi7Uxf56S1ebW6yHi5aM7GvZs2QiS9K4EeTH7UDxK2+kJ"
+  valid-duration: 20
+  refreshable-duration: 120
+
+
+
+
+
+
